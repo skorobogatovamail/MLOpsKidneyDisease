@@ -4,7 +4,7 @@ from box import ConfigBox, exceptions
 from box.exceptions import BoxValueError 
 import yaml
 from cnnClassifier import logger
-from typing import Bool, Any
+from typing import Any
 import os
 import json
 import joblib
@@ -37,7 +37,7 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
 
 
 @ensure_annotations
-def create_directories(path_to_directories: list, verbose: Bool = True):
+def create_directories(path_to_directories: list, verbose: bool = True):
     """create list of directories
 
     Args:

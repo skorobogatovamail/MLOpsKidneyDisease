@@ -1,1 +1,5 @@
 env
+artifacts
+logs
+*.pyc
+*.egg-info
